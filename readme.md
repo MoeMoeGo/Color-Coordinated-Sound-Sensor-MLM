@@ -1,3 +1,6 @@
+# Color-Coordinated-Sound-Sensor-MLM
+For individuals who are hard of hearing
+
  - **data/:** This directory contains subdirectories for storing raw audio
    files, processed data, and a CSV file containing labeled data. Raw
    audio files can be organized into subdirectories based on categories
