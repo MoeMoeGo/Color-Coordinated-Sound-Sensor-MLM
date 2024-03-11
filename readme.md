@@ -17,7 +17,7 @@ For individuals who are hard of hearing
      
    
  -  **models/:** This directory is used for saving trained models in a
-   serialized format . It stores the trained model file that can be loaded for inference or further analysis.
+   serialized format . It stores the trained model file that can be loaded for inference or further analysis
    
      
    
