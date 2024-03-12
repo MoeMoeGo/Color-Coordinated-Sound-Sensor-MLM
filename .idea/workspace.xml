@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b64d9f8d-b7c3-461b-a037-ba4583bfa4db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/7/275d783e298228506068436512433d343feb52aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/7/275d783e298228506068436512433d343feb52aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main Project/data_preprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main Project/evaulate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main Project/microcontroller_storage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main Project/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main Project/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Color-Coordinated-Sound-Sensor-MLM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Color-Coordinated-Sound-Sensor-MLM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data_preprocessing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +27,20 @@
   <component name="CodyActiveAccount">
     <option name="activeAccountId" value="VXNlcjoxNDEyODY=" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -36,6 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.CodyProjectSettingsMigration": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -43,9 +64,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\uzair\Documents\GitHub\Color-Coordinated-Sound-Sensor-MLM\Main Project" />
+      <recent name="C:\Users\uzair\Documents\GitHub\Color-Coordinated-Sound-Sensor-MLM\src\Main Project" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
