@@ -4,14 +4,34 @@ import joblib
 import pickle
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import LabelEncoder
+import sounddevice as sd
+import wave
+
+
+def record_audio(file_path, duration=5, sample_rate=44100, channels=1):
+    print("Recording...")
+    audio_data = sd.rec(int(sample_rate * duration), samplerate=sample_rate, channels=channels, dtype='int16')
+    sd.wait()
+    print("Recording complete.")
+
+    print("Saving to", file_path)
+    with wave.open(file_path, 'wb') as wf:
+        wf.setnchannels(channels)
+        wf.setsampwidth(2)
+        wf.setframerate(sample_rate)
+        wf.writeframes(audio_data.tobytes())
+
+if __name__ == "__main__":
+    file_path = "output.wav"
+    record_audio(file_path)
 #replace with your path to the label
 labelencoder_src='label_encoder.joblib'
 #replace with your audio file path
-filename='/Users/giablum/Spring24/CSE622/590 project/Sounds/alarms/alarm2.wav'
-model_path = '/Users/giablum/Spring24/CSE622/590 project/Sound Identifier ML/sound_model.h5'
+filename='output.wav'
+model_path = '/Users/giablum/Downloads/src/Sound Identifier ML/sound_model.h5'
 
 # Load the trained model
-model_path = '/Users/giablum/Spring24/CSE622/590 project/Sound Identifier ML/sound_model.h5'
+model_path = '/Users/giablum/Downloads/src/Sound Identifier ML/sound_model.h5'
 model = load_model(model_path)
 
 loaded_label_encoder = joblib.load(labelencoder_src)
